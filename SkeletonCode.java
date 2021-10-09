@@ -1,6 +1,6 @@
 public class SkeletonCode
 {
-    boolean moneyTransfered;
+    boolean moneyTransferred;
     double withdrawAmount;
     double totalFunds;
     double remainingFunds = totalFunds - withdrawAmount;
@@ -17,7 +17,7 @@ public class SkeletonCode
         /* The withdrawnAmount is withdrawn from the sending account's totalFunds, leaving the remainingFunds*/
         /* Needs if statement to determine if selected amount to transfer is present within account*/
         /* AccountID is needed to determine who recieves the money and if recieving account exists*/
-        return moneyTransfered; 
+        return moneyTransferred; 
         /* Boolean T/F determines is amount was successfully transfered or not */
     }
    
